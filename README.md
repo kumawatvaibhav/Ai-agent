@@ -18,7 +18,7 @@ Every 24 hours, your **AI agent** (powered by OpenAI GPT-4o) runs this workflow:
 
 1. **Scheduler:**  
    A time-based trigger activates the workflow automatically.
-2. **AI Agent (as Alishba):**  
+2. **AI Agent :**  
    The OpenAI GPT-4o model acts as “Vaibhav,” generating a fresh, unique, trending, and engaging social media post.
 3. **Google Sheets Logging:**  
    Each post, plus its timestamp, is instantly saved to a Google Sheet in your Drive.
@@ -46,7 +46,7 @@ This file contains the entire automation—ready to import into your own n8n ins
 
 1. **Clone this repo:**
     ```bash
-    git clone https://github.com/AlishbaAhsan/PostAutomation-AIAgent.git
+    git clone https://github.com/kumawatvaibhav/Ai-agent
     ```
 2. **Start n8n** on your system (locally or hosted).
     - [n8n installation guide](https://docs.n8n.io/hosting/installation/)
@@ -58,11 +58,6 @@ This file contains the entire automation—ready to import into your own n8n ins
     - Open the AI Agent node and edit the prompt to match your style, preferred topics, or posting frequency.
 6. **Activate the workflow:**
     - Switch on the workflow. The agent will start running according to the built-in schedule (every 24 hours by default).
-
-## 🏆 Why Use This Agent?
-
-Combining state-of-the-art AI with seamless automation, **PostAutomation-AIAgent** is your personal, always-on content creator and publisher.  
-Stay visible, stay relevant, and never miss a beat in the fast-moving AI-world without lifting a finger.
 
 
 ## 💡 Tips to Customize
